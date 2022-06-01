@@ -3,9 +3,16 @@ ul {
 }
 .center {
     margin: auto;
-    width: 50%;
-    padding: 10px;
+    text-align: center;
   }
-p.a {
-  text-indent: 50px;
-}
+  p.indented {
+    text-indent: 50px;
+  }
+  .floatRight {
+    float: right;
+    padding-left: 20px;
+  }
+  .floatLeft {
+    float: left;
+    padding-right: 20px;
+  }
